@@ -1,0 +1,29 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 40px;
+    padding: 10px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 40px;
+    padding: 10px;
+
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #097cff;
+    border-radius: 40px;
+    
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #00245a;
+    }

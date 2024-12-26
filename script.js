@@ -1,10 +1,10 @@
-const baseURL = `https://675f29cb1f7ad2426997bda6.mockapi.io/amirSalan`;
+const baseURL = `https://676d38070e299dd2ddfed519.mockapi.io/users`;
 const cardsBody = document.getElementById("cards-body");
 
 renderUsers();
 
 function renderUsers() {
-  fetch(`${baseURL}/user`)
+  fetch(`${baseURL}/users`)
     .then((response) => {
       return response.json();
     })
